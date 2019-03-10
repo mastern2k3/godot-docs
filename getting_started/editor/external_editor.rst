@@ -17,13 +17,13 @@ following inside the flags parameter:
 +---------------------+-----------------------------------------------------+
 | Field in Exec Flags | Is replaced with                                    |
 +=====================+=====================================================+
-| {project}           | The absolute path to the project directory          |
+| ``{project}``       | The absolute path to the project directory          |
 +---------------------+-----------------------------------------------------+
-| {file}              | The absolute path to the file                       |
+| ``{file}``          | The absolute path to the file                       |
 +---------------------+-----------------------------------------------------+
-| {col}               | The column number of the error                      |
+| ``{col}``           | The column number of the error                      |
 +---------------------+-----------------------------------------------------+
-| {line}              | The line number of the error                        |
+| ``{line}``          | The line number of the error                        |
 +---------------------+-----------------------------------------------------+
 
 Some example Exec Flags for various editors include:
@@ -31,9 +31,9 @@ Some example Exec Flags for various editors include:
 +---------------------+-----------------------------------------------------+
 | Editor              | Exec Flags                                          |
 +=====================+=====================================================+
-| geany/kate          | {file} --line {line} --column {col}                 |
+| geany/kate          | ``{file} --line {line} --column {col}``             |
 +---------------------+-----------------------------------------------------+
-| atom/sublime text   | {file}:{line}                                       |
+| atom/sublime text   | ``{file}:{line}``                                   |
 +---------------------+-----------------------------------------------------+
-| visual studio code  | {project} --goto {file}:{line}:{col}                |
+| visual studio code  | ``{project} --goto {file}:{line}:{col}``            |
 +---------------------+-----------------------------------------------------+
